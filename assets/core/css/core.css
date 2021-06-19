@@ -1,0 +1,19 @@
+.st-font{
+    font-family: 'Satisfy';
+
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+/*servieces icon color*/
+.i-colo{
+    color:chartreuse;
+}
+/*servieces subtitle color*/
+.ss-color{
+    color: whitesmoke;
+}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block contant %}
+<div class=" mt-5">
+    <div class="text-center">
+        <img src="{% static 'images/p3.jpg'%}" alt="profile pic" class="img-thumbnail" width="150px" height="150px">
+
+
+        
+    </div>
+    <div class="text-light mt-3 mx-5 text-justify">
+        <h1 class="font-weight-bold st-font text-white">Hello,</h1>
+        <div class="px-4" style="line-height: 2rem; ">
+            <p style="text-indent: 100px; "><b> I am <b class="text-warning">Aamir Abbasi </b> , I am a hard-working Engineering Graduate Specialised in 
+                <b class="text-warning  ">B-tech from computer science Engineering</b> with an overall CGPA of...! and
+                Along with my Degree, I completed my internship on <b class="text-warning" >JAVA</b> form <b class="text-light" >Aamzing Traning Basket pvt. Ltd. ,Noida</b>
+                And I also completed Python, Django , Bootstrap , HTML, CSS and various techlnologies, I learnt has Helped me doveloped my Final year project called
+                <b class="text-light" >Customer Relationship Managment System .</b> it was during this project that i discovered that i am a team player.</b>  
+                
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'hire' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-success my-3 {{contact}}">contact</a>
+    </div>
+
+</div>
+{% endblock contant %}

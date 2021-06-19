@@ -1,0 +1,25 @@
+{% load static %}
+<div class="border-warning border-right h-100">
+    <div class="text-center">
+        <img src="{% static 'images/p3.jpg'%}" alt="profilepic" class="img-fluid  rounded-circle mt-5" width="100px"
+            height="100px">
+        <h3 class="text-white mt-3 st-font "><b>Aamir Abbasi</b></h3>
+    </div>
+    <hr class="border-white border-bottom">
+    <nav class="nav flex-column text-center">
+        <a href="{% url 'home' %}" class="btn btn-outline-success {{home}}">HOME</a>
+        <a href="{% url 'education' %}" class="btn btn-outline-light {{education}}">EDUCATION</a>
+        <a href="{% url 'work' %}" class="btn btn-outline-warning {{work}}">MY WORK</a>
+        <a href="{% url 'skill' %}" class="btn btn-outline-danger {{skill}}">SKILLS</a>
+        <a href="{% url 'personal' %}" class="btn btn-outline-primary {{personal}}">EXTRA CURRICULAR</a>
+        <a href="{% url 'services' %}" class="btn btn-outline-warning {{services}}">SERVICES</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info {{contact}}">CONTACT</a>
+
+        
+      
+
+
+        
+
+    </nav>
+</div>
